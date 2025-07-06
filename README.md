@@ -16,6 +16,7 @@ Sou estudante de Sistemas de Informação e apaixonada por tecnologia. Desenvolv
 ---
 ## 📂 Estrutura do Projeto
 
+```bash
 src/
 ├── assets/
 │   ├── img/         → Imagens usadas
@@ -23,11 +24,11 @@ src/
 ├── components/      → Componentes reutilizáveis
 ├── App.js           → Componente principal
 ├── index.js         → Ponto de entrada
-
+```
 ## 🌐 Acesse Online
 
 Disponível via GitHub Pages:  
-🔗 https://lorrayneamorim.github.io/portfolio
+🔗 https://lorrayneamorim.github.io//personal-portfolio
 
 ## 📸 Preview
 
@@ -36,8 +37,8 @@ Disponível via GitHub Pages:
 ## 🛠️ Como Rodar Localmente
 
 ```bash
-git clone https://github.com/lorrayneamorim/portfolio.git
-cd portfolio
+git clone https://github.com/lorrayneamorim/personal-portfolio.git
+cd personal-portfolio
 npm install
 npm run dev
 ```
