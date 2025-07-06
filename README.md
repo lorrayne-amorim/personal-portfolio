@@ -28,7 +28,7 @@ src/
 ## 🌐 Acesse Online
 
 Disponível via GitHub Pages:  
-🔗 https://lorrayneamorim.github.io//personal-portfolio
+🔗 https://lorrayneamorim.github.io/personal-portfolio
 
 ## 📸 Preview
 
