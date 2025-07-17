@@ -4,7 +4,7 @@ import evento from "../assets/img/evento.JPG"
 import ecoveiculos from "../assets/img/ecoveiculos.JPG";
 import planly from "../assets/img/planly.JPG";
 import planly2 from "../assets/img/planly2.JPG";
-import planlymobile from "../assets/img/planlymobil.JPG";
+import planlymobile from "../assets/img/planlymobile.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
