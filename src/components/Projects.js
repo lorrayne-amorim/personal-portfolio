@@ -14,19 +14,19 @@ export const Projects = () => {
         {
             title: "Loja de Veículos",
             description: "Desenvolvimento WordPress",
-            imgUrl: ecoveiculos,
+            imgUrl: [ecoveiculos],
             Link: 'https://ecoveiculos.com.br'
         },
         {
             title: "Evento",
             description: "Trabalho Acadêmico",
-            imgUrl: evento,
+            imgUrl: [evento],
             Link: 'https://github.com/lorrayne-amorim/ESX'
         },
         {
             title: "Gerenciamento de Tarefas Interativo",
             description: "React, TypeScript e Tailwindcss",
-            imgUrl: planly, planly2, planlymobile,
+            imgUrl: [planly, planly2, planlymobile],
             Link: 'https://lorrayne-amorim.github.io/mykanban'
         },
     ];
