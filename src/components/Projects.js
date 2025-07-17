@@ -2,8 +2,9 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import evento from "../assets/img/evento.JPG"
 import ecoveiculos from "../assets/img/ecoveiculos.JPG";
-import medlink from "../assets/img/medlink.JPG"
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import planly from "../assets/img/planly.JPG";
+import planly2 from "../assets/img/planly2.JPG";
+import planlymobile from "../assets/img/planlymobil.JPG";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -23,10 +24,10 @@ export const Projects = () => {
             Link: 'https://github.com/lorrayne-amorim/ESX'
         },
         {
-            title: "Telemedicina",
-            description: "Trabalho Acadêmico",
-            imgUrl: medlink,
-            Link: 'https://github.com/lorrayne-amorim/Trabalho-Telemedicina'
+            title: "Gerenciamento de Tarefas Interativo",
+            description: "React, TypeScript e Tailwindcss",
+            imgUrl: planly, planly2, planlymobile,
+            Link: 'https://lorrayne-amorim.github.io/mykanban'
         },
     ];
 
@@ -52,7 +53,7 @@ export const Projects = () => {
                                                 <Nav.Link eventKey="second">Evento</Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third">Telemedicina</Nav.Link>
+                                                <Nav.Link eventKey="third">Kanban</Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
